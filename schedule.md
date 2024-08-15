@@ -5,18 +5,18 @@
 ### Week 1
 **Mon Aug 26:** Welcome; Tools setup
 
-**Wed Aug 28:**<sub>1</sub> Data definintions: Simple classes, diagrams
+**Wed Aug 28:**<sub>1</sub> Data definitions: Simple classes, diagrams
 > **Textbook**: Sections 1 & 2
 
-**Fri Aug 30:**<sub>2</sub> Containment, object diagrams
-> Section 3
+**Fri Aug 30:**<sub>2</sub> Methods, expressions, conditionals
+> Section 8, 9, 10
 
 ---
 ### Week 2
 **Mon Sep 2:** No Class (Labor Day)
 
-**Wed Sep 4:**<sub>3</sub> Methods, expressions, conditionals
-> Sections 8, 9, 10, 11
+**Wed Sep 4:**<sub>3</sub> Object containment, methods, and diagrams
+> Sections 3, 11
 
 **Fri Sep 6:**<sub>4</sub> Unions, interfaces, hierarchies
 > Sections 4
