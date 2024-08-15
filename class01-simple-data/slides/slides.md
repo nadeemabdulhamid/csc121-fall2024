@@ -141,7 +141,7 @@ class Book {
 ## Naming Conventions in Java
 
 - **Class** names start with uppercase letter.
-    - Class name should match the file name exactly with a ".java" extension
+    - Class name should match the file name exactly with a ".java" extension (Eclipse manages this for you)
 
 - **Field**, **parameter**, **variable** names start with lowercase letter.
 

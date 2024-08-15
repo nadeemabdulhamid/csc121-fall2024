@@ -13,10 +13,10 @@
     ![Automobile class diagram](auto-diagram.png)
 
 ---
-2. Create a class that captures *students*. Each student has a first name, last name, class year, and major. Create two examples of students.
+2. Develop a class that captures *students*. Each student has a first name, last name, class year, and major. Create at least two examples of students.
 
 ---
-3. Create a class that captures *planets*. Each planet has a name, a distance from the sun, and its gravity relative to Earth’s gravity. For distance and gravity, use the type `double` which captures real numbers. As examples, make instances for `Earth` and your favorite non-earth planet.
+3. Develop a class that captures *planets*. Each planet has a **name**, a **distance** from the sun, and its **gravity** relative to Earth’s gravity. For distance and gravity, use the type `double` which captures real numbers. As examples, make instances for `Earth` and your favorite non-earth planet.
 
 ---
 4. Consider the following context:
@@ -45,4 +45,18 @@
 5. Design a data representation (name your class `Rational`) for rational numbers that will support addition, subtraction, multiplication, and division. A rational number has a **numerator** and a **denominator**.
 
     Don't forget a `Test` class with a *good variety* of examples.
+
+
+
+
+
+## Rubric
+
+- Correct Java syntax: compiles & runs
+- Includes specified fields, commented if appropriate
+- Provides a boilerplate constructor definition
+- Provides a representation comment (in `/** JavaDoc notation */`) for the class
+- Defines a `...Test` class for each task
+- Defines at least 2-3 *representative* examples
+- Code style (indentation, spacing, class & field names, capitalization conventions)
 
