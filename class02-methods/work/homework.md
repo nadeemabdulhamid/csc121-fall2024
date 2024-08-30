@@ -4,11 +4,13 @@
 - Remember to create separate `xyzTest` classes for examples/JUnit tests for each task.
 
 ---
-1. In the `Planet` class, write out a method ***template*** after the constructor. Then, add a method `convertWeight` that takes the weight of an object on earth (as a number of type `double`) and produces the corresponding weight on that planet. Since the class has the planet’s gravity relative to earth’s, you just need to multiply the given weight by the relative gravity to get the answer for this method.
+1. In the `Planet` class, write out a method ***template*** after the constructor. Then, add a ***stub*** for a method `convertWeight` that takes the weight of an object on earth (as a number of type `double`) and produces the corresponding weight on that planet. The intent is to multiply the given weight by the planet's gravity relative to earth’s. Write ***test cases*** for the method in a test class. ***DO NOT*** implement the method completely -- you should just have a stub that fails (most of) the test cases.
 
 
 ---
-2. In the `Automobile` class, add a field `tankCapacity`, which represents the number of gallons the fuel tank will hold when full. Then, add a method `range` that takes a percentage (as a number between `0.0` and `1.0`) representing how full the tank currently is, and produces the estimated number of miles that can be driven before it is empty. However, used cars get only 90% of their stated mileage per gallon. For example, a used new car that gets 30 mpg, with a half-full 20 gallon fuel tank, can go for another 270 miles before empty.
+2. As you work on this task, you should write a stub initially; then comment it out after you have written test cases, and write out the complete definition of the method. 
+
+   In the `Automobile` class, add a field `tankCapacity`, which represents the number of gallons the fuel tank will hold when full. Then, add a method `range` that takes a percentage (as a number between `0.0` and `1.0`) representing how full the tank currently is, and produces the estimated number of miles that can be driven before it is empty. However, used cars get only 90% of their stated mileage per gallon. For example, a used new car that gets 30 mpg, with a half-full 20 gallon fuel tank, can go for another 270 miles before empty.
 
 
 ---
