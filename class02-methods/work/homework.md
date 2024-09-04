@@ -12,7 +12,7 @@
 
    In the `Automobile` class, add a field, `tankCapacity`, which represents the number of gallons the fuel tank will hold when full. *Make sure to update the constructor appropriately.*
    
-   Then, add a method `range(double percent)` that takes a percentage (as a number between `0.0` and `1.0`) representing how full the tank currently is, and produces the estimated number of miles that can be driven before it is empty. However, used cars get only 90% of their stated mileage per gallon. For example, a used new car that gets 30 mpg, with a half-full 20 gallon fuel tank, can go for another 270 miles before empty.
+   Then, add a method `range(double percent)` that takes a percentage (as a number between `0.0` and `1.0`) representing how full the tank currently is, and produces the estimated number of *whole* miles that can be driven before it is empty. However, used cars get only 90% of their stated mileage per gallon. For example, a used new car that gets 30 mpg, with a half-full 20 gallon fuel tank, can go for another 270 miles before empty.
 
 
 ---
