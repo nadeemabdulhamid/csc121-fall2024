@@ -84,7 +84,7 @@ At the end of this lecture you should
 
 - Draw one!
 
-- (Use UMLet in Eclipse)
+- (Use UMLet)
 
 (Solution in repo)
 
