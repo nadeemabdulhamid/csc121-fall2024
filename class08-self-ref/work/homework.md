@@ -4,7 +4,7 @@ Create an Eclipse project named `hw08-self-ref`.
 
 ## Project Milestone
 
-Complete Part 1 of [Creative Project - Milestone 1](https://berry.instructure.com/courses/13058/assignments/208200) by Friday and start working on Part 2.
+Complete Part 1 of [Creative Project - Milestone 1](https://berry.instructure.com/courses/13058/assignments/208200) by Wednesday and start working on Part 2.
 
 
 ## Part 1: Mobiles
