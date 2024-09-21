@@ -44,9 +44,9 @@ At the end of this lecture you should
 
 - Code for runner log examples is here:
 
-    - [Section 15 code](../htdc-code/section15/)
+    - [Section 15 code](../../htdc-code/section15/)
 
-        The final code is [`runnerlog3.java`](../htdc-code/section15/runnerlog3.java) and [`LogTests3.java`](../htdc-code/section15/LogTests3.java)
+        The final code is [`runnerlog3.java`](../../htdc-code/section15/runnerlog3.java) and [`LogTests3.java`](../../htdc-code/section15/LogTests3.java)
 
 
 ---
