@@ -47,6 +47,10 @@ public class Posn {
         return new Posn( this.x + offset.x, this.y + offset.y );
     }
 
+	/** produce the difference between that and this posn */
+    public Posn diff(Posn that) {
+        return new Posn( that.x - this.x,  that.y - this.y );
+    }
 
     @Override
     public int hashCode() {
@@ -70,12 +74,4 @@ public class Posn {
 		return "Posn [x=" + x + ", y=" + y + "]";
 	}
 
-	/** produce the difference between that and this posn */
-    public Posn diff(Posn that) {
-        return new Posn( that.x - this.x,  that.y - this.y );
-    }
-
-
-    
-    
 }
