@@ -7,9 +7,9 @@ paginate: false
 
 
 ---
-# Lecture 9 - Abstracting with Classes
+# Lecture 10 - Abstracting with Classes
 CSC 121 - Object Oriented Program Design
-Nadeem Abdul Hamid - Fall 2023
+Nadeem Abdul Hamid - Fall 2024
 
 <!-- paginate: skip -->
 <!-- _class: lead -->
@@ -37,7 +37,7 @@ At the end of this lecture you should
 
 
 <!-- paginate: true -->
-<!-- footer: Lecture 9 - Abstracting with Classes -->
+<!-- footer: Lecture 10 - Abstracting with Classes -->
 
 
 
