@@ -85,26 +85,26 @@ class BouncyWorldTest {
 
 		// move the active (first) anchor
 		assertEquals( new BouncyWorld(a2up, a3, b1, false), 
-				w1.keyPressed(new KeyEvent(null, 0, 0, 0, '\0', PApplet.UP)));
+				w1.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '\0', PApplet.UP)));
 		assertEquals( new BouncyWorld(a2right, a3, b1, false), 
-				w1.keyPressed(new KeyEvent(null, 0, 0, 0, '\0', PApplet.RIGHT)));
+				w1.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '\0', PApplet.RIGHT)));
 
 		assertEquals( new BouncyWorld(a3down, a2, b1, false), 
-				w3.keyPressed(new KeyEvent(null, 0, 0, 0, '\0', PApplet.DOWN)));
+				w3.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '\0', PApplet.DOWN)));
 		assertEquals( new BouncyWorld(a3left, a2, b1, false), 
-				w3.keyPressed(new KeyEvent(null, 0, 0, 0, '\0', PApplet.LEFT)));
+				w3.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '\0', PApplet.LEFT)));
 		
 		// swap active anchors
-		assertEquals( w3, w1.keyPressed(new KeyEvent(null, 0, 0, 0, '\0', PApplet.TAB)) );
-		assertEquals( w1, w3.keyPressed(new KeyEvent(null, 0, 0, 0, '\0', PApplet.TAB)) );
+		assertEquals( w3, w1.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '\0', PApplet.TAB)) );
+		assertEquals( w1, w3.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '\0', PApplet.TAB)) );
 
 		// pause/unpause
-		assertEquals( w0, w1.keyPressed(new KeyEvent(null, 0, 0, 0, ' ', ' ')));
-		assertEquals( w1, w0.keyPressed(new KeyEvent(null, 0, 0, 0, ' ', ' ')));
+		assertEquals( w0, w1.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, ' ', ' ')));
+		assertEquals( w1, w0.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, ' ', ' ')));
 
 		// ignore other keys
-		assertEquals( w1, w1.keyPressed(new KeyEvent(null, 0, 0, 0, 'c', 'c')));
-		assertEquals( w1, w1.keyPressed(new KeyEvent(null, 0, 0, 0, '$', '$')));
+		assertEquals( w1, w1.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, 'c', 'c')));
+		assertEquals( w1, w1.keyPressed(new KeyEvent(null, 0, KeyEvent.PRESS, 0, '$', '$')));
 
 	}
 
