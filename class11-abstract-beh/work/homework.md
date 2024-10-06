@@ -36,3 +36,12 @@ Design a `CompoundBookPredicate` class that works as follows. You should be able
 	}
 ```
 
+---
+
+## Part 3
+
+Add the [ILoA.java](../code/hw/ILoA.java) from lecture to your `hw11-abstract-behav` directory. Replace the use of `shortestName()` in the [AuthorTest.java](../code/hw/AuthorTest.java) with the abstracted `min()` method. 
+
+- Define an appropriate class that implements `IAuthorComparator`.
+- Replace the test case to use `min()` and your comparator object.
+- Delete completely the `shortestName()` and `shortestNameSoFar()` from the `ILoA` file. There should be no errors.
