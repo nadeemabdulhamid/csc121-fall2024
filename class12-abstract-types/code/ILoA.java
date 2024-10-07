@@ -2,10 +2,11 @@
 import java.util.Objects;
 
 
-
 /** to represent a list of authors */
 interface ILoA {
 	
+	ILoA select(IAuthorPredicate pred);
+
 	/** produce the author that is the minimum according to the
 	 * given comparator
 	 */
@@ -18,6 +19,10 @@ interface ILoA {
 /** an empty list of authors */
 class MTLoA implements ILoA {
 	MTLoA() {}
+	
+	public ILoA select(IAuthorPredicate pred) {
+		return this;
+	}
 	
 	/** produce the author that is the minimum according to the
 	 * given comparator
@@ -58,6 +63,15 @@ class ConsLoA implements ILoA {
 		this.first = first;
 		this.rest = rest;
 	}
+	
+	public ILoA select(IAuthorPredicate pred) {
+		if (pred.satisfiedBy(this.first)) {
+			return new ConsLoA(this.first, this.rest.select(pred));
+		} else {
+			return this.rest.select(pred);
+		}
+	}
+
 	
 	/** produce the author that is the minimum according to the
 	 * given comparator

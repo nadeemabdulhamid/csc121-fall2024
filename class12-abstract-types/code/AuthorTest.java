@@ -20,6 +20,8 @@ public class AuthorTest {
 		
 		assertEquals(im, alist4.min(new NameLengthCompare()));
 		assertEquals(go, alist4.min(new YoBCompare()));
+		
+		assertEquals(alist2,  alist4.select(new BornAfter1940()));
 	}
 
 }

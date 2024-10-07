@@ -24,7 +24,6 @@ class MTLoB implements ILoB {
 		return this;
 	}
 	
-
 	/** produce the book that is the minimum according to the
 	 * given comparator
 	 */
