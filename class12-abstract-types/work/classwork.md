@@ -84,7 +84,7 @@ public class HighScore {
 
 ## Exploring: `toString()` (and more)
 
-Work with someone next to you. Use resources on the internet (Google, ChatGPT, Copilot, Stackoverflow, whatever) to find answers to these questions. Summarize your findings tions in a `/*` *comment* `*/` at the bottom of your `Pair.java` file. ***Don't just write down anything that doesn't make sense to you. If you don't understand what something is saying, please ask!***
+Work with someone next to you. Use resources on the internet (Google, ChatGPT, Copilot, Stackoverflow, whatever) to find answers to these questions. Summarize your findings in a `/*` *comment* `*/` at the bottom of your `Pair.java` file. ***Don't just write down anything that doesn't make sense to you. If you don't understand what something is saying, please ask!***
 
 - Is the `toString()` method special in Java? How? 
 
