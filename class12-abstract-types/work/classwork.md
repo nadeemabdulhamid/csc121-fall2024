@@ -9,8 +9,8 @@ Consider the following two class definitions:
 
 ```
 public class Name {
-    private String first;
-    private String last;
+    String first;
+    String last;
 
     ...default constructor
 }
@@ -20,8 +20,8 @@ and
 
 ```
 public class Posn {
-    private int x;
-    private int y;
+    int x;
+    int y;
 
     ...default constructor
 }
