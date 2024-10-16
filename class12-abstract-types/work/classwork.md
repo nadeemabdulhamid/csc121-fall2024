@@ -68,8 +68,8 @@ Note in this example we are using the wrapper class `Integer` because an `int` i
 - Consider this class:
 ```
 public class HighScore {
-    private String name;
-    private int score;
+    String name;
+    int score;
 
     ...default constructor
 }
