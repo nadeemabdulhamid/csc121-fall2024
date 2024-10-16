@@ -90,7 +90,7 @@ Work with someone next to you. Use resources on the internet (Google, ChatGPT, C
 
 - What happens if you don't define `toString()` (e.g. comment out the definition and run `PairTest`.) Where does that come from?
 
-    > **Try this:** (With `toString()` still commented out:) Add the following method to `Pair` and try running `PairTest`. Inspect the failing method result.
+    > **Try this:** (With `toString()` still commented out,) Add the following method to `Pair` and try running `PairTest`. Inspect the failing method result.
 
     ```
     public int hashCode() { 
@@ -101,5 +101,9 @@ Work with someone next to you. Use resources on the internet (Google, ChatGPT, C
 - What is `Object`? 
 
 - What's the relationship between `Pair` and `Object`? 
+
+## Alternative to generics: `Object`
+
+7. Develop a (non-generic) `PairObject` class whose fields are `Objects`.
 
 
