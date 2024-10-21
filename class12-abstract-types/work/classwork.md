@@ -9,8 +9,8 @@ Consider the following two class definitions:
 
 ```
 public class Name {
-    private String first;
-    private String last;
+    String first;
+    String last;
 
     ...default constructor
 }
@@ -20,8 +20,8 @@ and
 
 ```
 public class Posn {
-    private int x;
-    private int y;
+    int x;
+    int y;
 
     ...default constructor
 }
@@ -68,8 +68,8 @@ Note in this example we are using the wrapper class `Integer` because an `int` i
 - Consider this class:
 ```
 public class HighScore {
-    private String name;
-    private int score;
+    String name;
+    int score;
 
     ...default constructor
 }
@@ -84,13 +84,13 @@ public class HighScore {
 
 ## Exploring: `toString()` (and more)
 
-Work with someone next to you. Use resources on the internet (Google, ChatGPT, Copilot, Stackoverflow, whatever) to find answers to these questions. Summarize your findings tions in a `/*` *comment* `*/` at the bottom of your `Pair.java` file. ***Don't just write down anything that doesn't make sense to you. If you don't understand what something is saying, please ask!***
+Work with someone next to you. Use resources on the internet (Google, ChatGPT, Copilot, Stackoverflow, whatever) to find answers to these questions. Summarize your findings in a `/*` *comment* `*/` at the bottom of your `Pair.java` file. ***Don't just write down anything that doesn't make sense to you. If you don't understand what something is saying, please ask!***
 
 - Is the `toString()` method special in Java? How? 
 
 - What happens if you don't define `toString()` (e.g. comment out the definition and run `PairTest`.) Where does that come from?
 
-    > **Try this:** (With `toString()` still commented out:) Add the following method to `Pair` and try running `PairTest`. Inspect the failing method result.
+    > **Try this:** (With `toString()` still commented out,) Add the following method to `Pair` and try running `PairTest`. Inspect the failing method result.
 
     ```
     public int hashCode() { 
@@ -101,5 +101,9 @@ Work with someone next to you. Use resources on the internet (Google, ChatGPT, C
 - What is `Object`? 
 
 - What's the relationship between `Pair` and `Object`? 
+
+## Alternative to generics: `Object`
+
+7. Develop a (non-generic) `PairObject` class whose fields are `Objects`.
 
 
