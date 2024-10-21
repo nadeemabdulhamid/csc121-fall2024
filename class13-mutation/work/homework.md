@@ -49,7 +49,9 @@ class PersonTest {
 }
 ```
 
-3. Make sure `equals()` does not cause an infinite loop. Add the following tests. (How do you propose to modify the default `equals()` method created by Eclipse?)
+3. Note: using type casts for objects like in the code above is a "code smell" and should be avoided in normal code. Sometimes, in a test class like the one above, it might be necessary to use them. Explain in a comment at the top of your PersonTest file: why are the casts `(Person)` necessary here?
+
+4. Make sure `equals()` does not cause an infinite loop. Add the following tests. (How do you propose to modify the default `equals()` method created by Eclipse?)
 
 ```
 	Person aliya1 = new Person("Aliya");   // mom
