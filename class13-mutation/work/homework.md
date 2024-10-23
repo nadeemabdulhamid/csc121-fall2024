@@ -25,7 +25,7 @@ class Person implements IPerson {
 
 For now, we will assume that everyone has at most one child. Add fields (`name`, `mom`, `dad`, `child`) and methods so that the test class below works.
 
-1. Define two overloaded constructors. One takes just a name and initializes a Person's mom and dad to unknowns. The second one takes parents and should set each of the parents' `child` to 
+1. Define two overloaded constructors. One takes just a name and initializes a Person's mom and dad to unknowns. The second one takes parents and should set each of the parents' `child` to the object that is being constructed (`this`) using the `updateChild` method -- see next.
 
 2. Add an `updateChild(IPerson child)` method to the class hiearchy. For unknowns, this method does nothing. For a `Person` it sets their child. 
 
