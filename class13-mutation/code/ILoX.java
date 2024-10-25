@@ -1,4 +1,4 @@
-package step2;
+
 import java.util.Objects;
 
 /** represents a list of things of the 'same' type */
@@ -14,6 +14,11 @@ public interface ILoX<T> {
 	/** does this list contain the given item */
 	boolean contains(T item);
 
+}
+
+
+interface IPredicate <T> {
+    boolean satisfiedBy(T a);
 }
 
 
