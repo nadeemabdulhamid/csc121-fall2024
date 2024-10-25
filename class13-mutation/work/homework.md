@@ -1,4 +1,4 @@
-# Classwork 13 - Mutation
+# Homework 13 - Mutation
 
 Create an Eclipse project named `hw13-mutation`.
 
