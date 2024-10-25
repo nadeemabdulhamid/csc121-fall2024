@@ -126,6 +126,7 @@ public class CounterTest {
     What does/should the method return?
 
 ### `void`
+
 > All we want it to do is to have the side effect of modifying the `Author` — we don’t really want a return value at all! To accommodate this situation, Java defines a new keyword, `void`, which can be used to indicate that a method does not return any value. This type tells the reader of the code that the method’s purpose must be solely to have side effects — after all, if a method had no side effects and returned no value, of what use would it be?
 
 10. When we design methods with side effects, we need to change how we phrase our purpose statements. Instead of saying what the method computes as a *result*, we should specify what the method’s side effects are.
@@ -151,4 +152,19 @@ public class CounterTest {
         }
     }   
     ```
+
+--- 
+## Mutation with lists
+
+Add the following files to your project:
+
+- [ILoX.java](../code/ILoX.java)
+- [BooksTest2.java](../code/BooksTest2.java)
+
+Then:
+
+13. Modify authors to have an `ILoX<Book>` of books. 
+
+14. Modify the `addBook` method so that it passes the tests in `BooksTest2.java`. If the author of the book being added doesn't match `this` author, it should throw an exception. If the book is already in `this` author's list, it should not be added. 
+
 
