@@ -37,8 +37,8 @@ class DailyRecordTest {
         assertThrows(IllegalArgumentException.class, () -> dr.getTemp(10));
         assertThrows(IllegalArgumentException.class, () -> dr.getTemp(21));
         assertThrows(IllegalStateException.class, () -> dr.getHigh());
-        //assertThrows(IllegalStateException.class, () -> dr.getLow());
-        //assertThrows(IllegalStateException.class, () -> dr.getAverage());
+        assertThrows(IllegalStateException.class, () -> dr.getLow());
+        assertThrows(IllegalStateException.class, () -> dr.getAverage());
                 
         // not sequential...
         assertThrows(IllegalArgumentException.class, () -> dr.recordTemp(10, 68));
@@ -48,21 +48,21 @@ class DailyRecordTest {
         assertThrows(IllegalArgumentException.class, () -> dr.getTemp(21)); // not affected
         
         assertEquals(68, dr.getHigh());
-        //assertEquals(68, dr.getLow());
-        //assertEquals(68, dr.getAverage());
+        assertEquals(68, dr.getLow());
+        assertEquals(68, dr.getAverage());
 
         dr.recordTemp(1, 73);
         dr.recordTemp(2, 59);
         dr.recordTemp(3, 62);
 
         assertEquals(73, dr.getHigh());
-        //assertEquals(59, dr.getLow());
-        //assertEquals(65, dr.getAverage());  
+        assertEquals(59, dr.getLow());
+        assertEquals(65, dr.getAverage());  
         
         dr.recordTemp(1, 62);   // change
         assertEquals(68, dr.getHigh());
-        //assertEquals(59, dr.getLow());
-        //assertEquals(62, dr.getAverage());  
+        assertEquals(59, dr.getLow());
+        assertEquals(62, dr.getAverage());  
     }
     
     
