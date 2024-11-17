@@ -1,6 +1,6 @@
 # Homework 18 - ArrayLists
 
-Create an Eclipse project named `hw18-arraylist`. Use your code from lecture, Friday, November 16th, or download mine from here:
+Create an Eclipse project named `hw18-arraylist`. Use your code from lecture, Friday, November 15th, or download mine from here:
 
 - [lecture code](./live/)
 
